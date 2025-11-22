@@ -1,0 +1,386 @@
+@import "reset.css";
+@import "font.css";
+
+*{
+    font-family: 'Geist';
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: #09090B;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1488px;
+    height: 70px;
+    padding: 0 24px;
+}
+.nav-links {
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+}
+.nav-link {
+    display: flex;
+    padding: 2px 6px;
+    width: 152px;
+    color: #FAFAFA;
+}
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 32px;
+    height: 50px;
+    background-color: #0077ff;
+    border-radius: 14px;
+    font-size: 18px;
+    color:#FFFFFF;
+}
+main {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.breadcrumbs {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    p {
+        font-size: 18px;
+    }
+}
+.breadcrumb {
+    color: #52525B;
+}
+.breadcrumb-white {
+    color:#FFFFFF;
+}
+.vacation-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    width: 100%;
+    background-color: #18181B;
+    border-radius: 24px;
+    padding: 24px;
+}
+.vacation-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    h1 {
+        font-size: 60px;
+        font-weight: 600px;
+        color: #FFFFFF;
+    }
+    p {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+.vacation-banner-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    p {
+        font-size: 18px;
+        color:#FFFFFF;
+    }
+    align-items: end;
+}
+.vacation-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.vacation-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    p {
+        font-size: 24px;
+        color: white;
+    }
+    border-radius: 12px;
+    background-color: #0077FF;
+}
+.vacation-info-part {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.vacation-company-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vacation-response {
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #18181B;
+    gap: 18px;
+}
+.vacation-response-title {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    h2 {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+.vacation-response-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.vacation-response-button-accept {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 32px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: #0077FF;
+    a {
+        font-size: 18px;
+        color: #FAFAFA;
+    }
+}
+.vacation-response-button-complain {
+    background-color: #27272A;
+    border: 1px solid #3F3F46;
+}
+.vacation-company-info {
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #18181B;
+    gap: 18px;
+}
+.vacation-company-main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.vacation-company-description {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    p {
+        color:#FFFFFF;
+        font-size: 16px;
+    }
+}
+.vacation-company-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    p {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+.vacation-tasks-description-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding: 12px;
+    color: #E4E4E7;
+    background-color: #18181B;
+    border-radius: 24px;
+    p {
+        font-size: 20px;
+        font-weight: 600px;
+    }
+    li {
+        list-style: circle;
+        font-size: 18px;
+        list-style-position: inside;
+        line-height: 140%;
+
+    }
+}
+.vacation-tasks-description-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    width: 100%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #18181B;
+    border-radius: 24px;
+    width: 1440px;
+    height: fit-content;
+    padding: 48px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-nav {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+.footer-nav-public-part {
+    display: flex;
+    gap: 24px;
+    height: fit-content;
+    width: 50%;
+}
+.footer-nav-public-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 24px;
+    height: 44px;
+    border-radius: 14px;
+    background-color: #FAFAFA;
+    p {
+        font-size: 16px;
+        color: #09090B;
+    }
+}
+.footer-nav-public-logo {
+    display: flex;
+    align-items: center;
+    height: 39px;
+    width: 110px;
+}
+.footer-nav-main-part {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 50%;
+    p {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        color:#FFFFFF;
+        height: 31px;
+    }
+}
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #E4E4E7;
+    background-color: #18181B;
+}
+.menu-line {
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+.mobile-only {
+    display: none;
+}
+.desktop-only {
+    display: inherit;
+}
+@media (max-width: 1464px) {
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: inherit;
+    }
+    body {
+        padding: 12px 12px 0px 48px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 48px;
+        gap: 24px;
+    }
+    nav {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        gap: 12px;
+    }
+    footer {
+        width: 100%;
+        padding: 12px;
+    }
+    .vacation-offer {
+        padding: 12px;
+    }
+
+    .vacation-title {
+        h1 {
+            font-size: 24px;
+        }
+    }
+    .vacation-banner-info {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+    .vacation-tag {
+        padding: 6px 20px;
+        gap: 10px;
+        height: fit-content;
+        width: fit-content;
+        p {
+            font-size: 16px;
+        }
+    }
+    .vacation-info-part {
+        flex-direction: column;
+    }
+    .vacation-company-info {
+        width: 100%;
+    }
+
+    .vacation-response {
+        width: 100%;
+    }
+    footer {
+        gap: 96px;  
+    }
+    .footer-nav {
+        flex-direction: column;
+        gap: 96px;
+    }
+
+    .footer-nav-public-part {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .footer-nav-main-part {
+        gap: 24px;
+        width: 100%;
+        align-items: flex-start;
+    }
+}
+
